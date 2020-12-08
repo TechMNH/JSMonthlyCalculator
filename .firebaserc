@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "angcalc-dee1d"
+  },
+  "targets": {
+    "angcalc-dee1d": {
+      "hosting": {
+        "js-monthly-calculator": [
+          "angcalc"
+        ]
+      }
+    }
+  }
+}
