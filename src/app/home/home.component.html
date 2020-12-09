@@ -2,10 +2,13 @@
     <textarea name="" id="" cols="30" rows="31" [(ngModel)]="inputData"></textarea>
     <p style="width:50px;"></p>
 
-    <textarea name="" id="" cols="25" rows="31" [(ngModel)]="newMonth" readonly></textarea>
+    <textarea name="" id="" cols="40" rows="31" [(ngModel)]="monthlyTotal" readonly></textarea>
+    <button name="" id="" style="margin-left:20px; width:150px; height:50px;" (click)="copyFunc('total')">Copy Monthly Total</button>
     <p style="width:50px;"></p>
 
-    <textarea name="" id="" cols="40" rows="31" [(ngModel)]="monthlyTotal" readonly></textarea>
+    <textarea name="" id="monthlyTotal" cols="25" rows="31" [(ngModel)]="newMonth" readonly></textarea>
+    <button name="" id="" style="margin-left:20px; width:150px; height:50px;" (click)="copyFunc('new')">Copy New Month</button>
     <p style="width:50px;"></p>
-    <button name="" id="" style="width:100px; height:50px;" (click)="Generate()">Generate</button>
 </div>
+
+<button name="" id="" style="width:100px; height:50px; margin-top: 100px;" (click)="generate()">Generate</button>
